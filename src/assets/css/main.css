@@ -1,0 +1,176 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #31485a;
+}
+/*--------------------header--------------------*/
+header {
+  padding: 0px;
+  margin: 0px;
+  background-color: #31485a;
+}
+.phone {
+  display: block;
+  color: #fff;
+  float: right;
+  margin-top: 10px;
+  clear: both;
+}
+.logoTop {
+  margin-left: 15%;
+  width: 300px;
+}
+@media (max-width: 1024px) {
+  .phone {
+    display: none;
+  } 
+  .logoTop {
+    margin-left: 4%;
+    width: 200px;
+  } 
+}
+/*-----top navigation-----*/
+.divTopMenu {
+  margin-top: 82px;
+}
+.ulTopMenu {
+  display: inline;
+  list-style-type: none;
+}
+.ulTopMenu > li {
+  float: left;
+  padding-left: 5%; 
+}
+.ulTopMenu > li > a {
+  text-decoration: underline;
+  color: #fff;
+}
+.ulTopMenu > li > a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+@media (max-width: 1024px) {
+  .ulTopMenu > li {
+    padding-left: 4%;
+    font-size: 0.9em;
+  }
+  .divTopMenu {
+    margin-top: 48px;
+  }
+}
+@media (min-width: 768px) and (max-width: 878px) {
+  .ulTopMenu > li {
+    padding-left: 1.772%;
+    font-size: 0.9em;
+  }
+}
+@media (max-width: 767px) {
+  .ulTopMenu > li {
+    float: none;
+    font-size: 0.9em;
+  }
+}
+.icon-bar {
+  background-color: #fff;
+}
+/*-----/top navigation-----*/
+/*--------------------/header--------------------*/
+/*--------------------main--------------------*/
+.bg {
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;/*правильно масштабирует img*/
+  background-position: center center;
+  background-attachment: fixed;
+}
+.leftSide {
+  background-color: #31485a;
+  opacity: 0.7;
+}
+article {
+  color: #fff;
+}
+/*--------------------/main--------------------*/
+/*--------------------footer--------------------*/
+footer {
+  clear: both;
+  text-align: center;
+  padding: 0px;
+  margin-bottom: 0px;
+  background-color: #31485a;
+}
+h3 {
+  color: #fff;
+  text-align: center; 
+}
+h5 {
+  color:#fff;
+}
+.imgFooter {
+  max-width: 150px;
+}
+.socialIcon {
+  width: 40px;
+  margin-right: 15px;
+}
+.menuLine {/*yellow line under menu*/
+  min-width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #cca682;
+  height: 50px;
+  clear: both;
+}
+@media (max-width: 1011px) {
+  .menuLine {
+    display: none;
+  }  
+}
+.news {
+  background-color: #31485a;
+}
+.newsLinkUnderL {
+  text-decoration: underline;
+}
+/*-----footer navigation-----*/
+ul.navBottom {
+  display: inline;
+  list-style-type: none;
+} 
+ul.navBottom>li {
+  float: left;
+  padding-left: 8%;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 50px;
+}
+@media (min-width: 1600px) {
+  ul.navBottom>li {
+    padding-left: 11%;
+  }  
+}
+ul.navBottom>li>a {
+  height: 50px;
+  display: block;
+  color: #fffefd;
+  text-decoration: none;
+  line-height: 50px;
+} 
+ul.navBottom>li>a:active {
+  height: 50px;
+  display: block;
+  color: #fffefd;
+  text-decoration: none;
+  background: url(../img/triangle.png) no-repeat top;
+  line-height: 60px;
+}
+ul.navBottom>li>a:hover {
+  height: 50px;
+  display: block;
+  color: #fffefd;
+  text-decoration: none;
+  background: url(../img/triangle.png) no-repeat top;
+  line-height: 50px;
+}
+/*-----/footer navigation-----*/
+/*--------------------/footer--------------------*/
